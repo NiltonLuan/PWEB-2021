@@ -1,0 +1,40 @@
+body{
+            font-family: Arial, Helvetica, sans-serif;}
+    
+    form{
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 35px;
+            border-radius: 15px;
+            width: 22%;}
+
+        fieldset{
+            border: 4px solid dodgerblue;
+            padding: 20px;
+            border-radius: 10px;}
+        
+        legend{
+            border: 1px solid dodgerblue;
+            padding: 12px;
+            text-align: center;
+            background-color: dodgerblue;
+            border-radius: 15px;}
+        
+        #submit{
+            background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+            width: 50%;
+            border: none;
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            float: left;}
+        
+        #submit:hover{
+            background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));}
+      
