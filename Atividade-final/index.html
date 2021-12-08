@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+	<!-- Metadados -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Título da página -->
+	<title>Contato</title>
+</head>
+
+<body>
+    <div class="box">
+		<form method="POST" action="./contato.php">
+			<fieldset>
+                <div>
+                    <label for="inputName">Nome</label>
+                    <input type="text" id="inputName" name="nome" required maxlength="50">
+                    <span></span>
+                </div>
+                <div>
+                    <label for="inputEmail">Endereço de Email</label>
+                    <input type="text" id="inputEmail" name="email" required maxlength="50">
+                    <span></span>
+                </div>
+                <div>
+                    <label for="textAreaMensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="textAreaMensagem" required maxlength="100"></textarea>
+                    <span></span>
+                </div>
+
+                <button>Enviar mensagem</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
