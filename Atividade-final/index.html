@@ -4,28 +4,28 @@
 	<!-- Metadados -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
 	
 	<!-- Título da página -->
 	<title>Contato</title>
 </head>
 
 <body>
+    <h1>Inscreva-se para mais informações!</h1>
     <div class="box">
-		<form method="POST" action="./contato.php">
+		<form method="POST" action="./envio.php">
 			<fieldset>
                 <div>
                     <label for="inputName">Nome</label>
                     <input type="text" id="inputName" name="nome" required maxlength="50">
                     <span></span>
                 </div>
+                
                 <div>
                     <label for="inputEmail">Endereço de Email</label>
                     <input type="text" id="inputEmail" name="email" required maxlength="50">
-                    <span></span>
-                </div>
-                <div>
-                    <label for="textAreaMensagem">Mensagem:</label>
-                    <textarea name="mensagem" id="textAreaMensagem" required maxlength="100"></textarea>
                     <span></span>
                 </div>
 
